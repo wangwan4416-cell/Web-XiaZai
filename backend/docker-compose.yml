@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  backend:
+    build: .
+    container_name: video-parser-backend
+    ports:
+      - "3000:8000"
+    environment:
+      - VOLC_APP_ID=${VOLC_APP_ID}
+      - VOLC_ACCESS_TOKEN=${VOLC_ACCESS_TOKEN}
+    restart: unless-stopped

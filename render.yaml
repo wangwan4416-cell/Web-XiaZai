@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: video-parser-backend
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    instanceType: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: VOLC_APP_ID
+        sync: false
+      - key: VOLC_ACCESS_TOKEN
+        sync: false
