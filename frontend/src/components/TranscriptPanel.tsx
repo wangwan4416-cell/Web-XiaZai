@@ -90,7 +90,6 @@ export default function TranscriptPanel({
             {allStages.map((s, i) => {
               const completed = i < currentIdx;
               const active = i === currentIdx;
-              const pending = !completed && !active;
 
               return (
                 <div key={s.key} className="flex items-center gap-3">
