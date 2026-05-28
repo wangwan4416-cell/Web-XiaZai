@@ -2,8 +2,7 @@ services:
   - type: web
     name: video-parser-backend
     runtime: docker
-    rootDir: backend
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: ./backend/Dockerfile
     instanceType: free
     healthCheckPath: /api/health
     envVars:
