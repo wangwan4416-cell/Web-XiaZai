@@ -13,3 +13,4 @@ dist/
 downloads/
 *.mp4
 *.mp3
+.claude/settings.local.json
