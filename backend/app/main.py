@@ -9,7 +9,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="视频解析下载工具 - 后端",
+    title="谢沛的示例网站 - 后端",
     version="1.0.0",
     lifespan=lifespan,
 )

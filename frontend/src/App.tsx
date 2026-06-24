@@ -39,7 +39,7 @@ function App() {
       {/* Header */}
       <header className="mb-10 text-center">
         <h1 className="text-3xl font-bold text-white tracking-tight sm:text-4xl">
-          视频解析下载
+          谢沛的示例网站，不可转发及传播
         </h1>
         <p className="mt-2 text-slate-400">
           粘贴链接，一键下载无水印视频与文案
